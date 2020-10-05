@@ -60,7 +60,10 @@ bind(
 load("//scala:maven.bzl", "scala_lang_libs")
 
 maven_install(
-    artifacts = scala_lang_libs,
+    artifacts = scala_lang_libs + [
+        "ch.epfl.scala:bsp4s_2.12:2.0.0-M13",
+        "ch.epfl.scala:bsp4j:2.0.0-M13",
+    ],
     repositories = [
       "https://repo.maven.apache.org/maven2",
       "https://jcenter.bintray.com",

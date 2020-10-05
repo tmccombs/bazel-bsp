@@ -1,4 +1,4 @@
-scala_version = "2.13.3"
+scala_version = "2.12.12"
 
 _lib_names = ["scala-compiler", "scala-library", "scala-reflect"]
 
