@@ -1,0 +1,4 @@
+alias(
+    name = "bazelbsp",
+    actual = "//src/main/java/com/github/tmccombs/bazelbsp"
+)
